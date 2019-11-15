@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dog - Blog</title>
+</head>
+<body>
+  <header id="top">
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <img src="https://cdn.pixabay.com/photo/2016/10/10/14/13/dog-1728494_1280.png" width="150" alt="dog logo" />
+  </header>
+  
+  <main>
+    <h1>Contact or visit us</h1>
+    <section>
+      <h2>Give us a howl</h2>
+      <p>E-mail us if you have any questions or would like to share a nice dog pic! 
+        <br><a href="mailto:contact@doggo.voff">contact@doggo.voff</a>
+        <br>Or visit us at our address:</p>
+        <address>
+            The Dog Blog <br>
+            404 Puppero Avenue <br>
+            Dog Town, CA 95317 <br>
+            USA
+        </address> 
+        <p>Tel: <a href="tel:1-510-432-1098">1-510-432-1098</a></p>
+   </section>
+    <section>
+      <h2>Input info </h2>
+      <!-- Kontaktformulär -->
+      <form action="https://formspree.io/xqkklrgj" method="POST">
+        <label for="name">Namn
+          <input 
+          type="text" 
+          name="First Name" 
+          id="name" 
+          required 
+          placeholder="Ditt namn...">
+        </label>
+          <br><br>
+        <label for="email">E-mail
+          <input 
+          type="email"
+          name="Email Address" 
+          id="email"
+          required
+          placeholder="Din e-mail...">
+        </label>
+        <br><br>
+        <label for="message">Ditt meddelande
+          <br>
+          <textarea 
+          name="Text Message" 
+          id="message" 
+          cols="30" 
+          rows="5"></textarea>
+        </label>
+        <br>
+        <button type="submit">Skicka</button>
+      </form>
+  
+    </section>
+  </main>
+
+  <footer>
+      <hr>
+    <a href="#top">Go to top</a>
+  </footer>
+
+</body>
+</html>
