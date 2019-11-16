@@ -4,45 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2013/07/12/19/15/dog-154416_1280.png" type="image/x-icon">
   <title>Dog - Blog</title>
 </head>
 <body>
-  <header id="top">
-    <nav>
+  <header>
+    <nav id="top">
       <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li class="navlink"><a href="./index.html">Home</a></li>
+        <li class="navlink"><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
-    <img src="https://cdn.pixabay.com/photo/2016/10/10/14/13/dog-1728494_1280.png" width="150" alt="dog logo" />
   </header>
   
   <main>
     <h1>Contact or visit us</h1>
-    <section>
+    <section class="contact">
       <h2>Give us a howl</h2>
-      <p>E-mail us if you have any questions or would like to share a nice dog pic! 
-        <br><a href="mailto:contact@doggo.voff">contact@doggo.voff</a>
-        <br>Or visit us at our address:</p>
+      <img src="https://source.unsplash.com/N6YQfPn_9N4/" id="howl" alt="Dog" />
+        <a href="mailto:contact@doggo.voff">contact@doggo.voff</a><br><br>
         <address>
             The Dog Blog <br>
             404 Puppero Avenue <br>
             Dog Town, CA 95317 <br>
             USA
         </address> 
-        <p>Tel: <a href="tel:1-510-432-1098">1-510-432-1098</a></p>
+        <p>Tel: <a href="tel:1-555-432-1098">1-555-432-1098</a></p>
    </section>
-    <section>
-      <h2>Input info </h2>
+    <section class="contact">
+      <h2>Contact us</h2>
       <!-- Kontaktformulär -->
       <form action="https://formspree.io/xqkklrgj" method="POST">
-        <label for="name">Namn
+        <label for="name">Name
           <input 
           type="text" 
           name="First Name" 
           id="name" 
           required 
-          placeholder="Ditt namn...">
+          placeholder="Your name...">
         </label>
           <br><br>
         <label for="email">E-mail
@@ -51,10 +52,10 @@
           name="Email Address" 
           id="email"
           required
-          placeholder="Din e-mail...">
+          placeholder="Your e-mail...">
         </label>
         <br><br>
-        <label for="message">Ditt meddelande
+        <label for="message">Message
           <br>
           <textarea 
           name="Text Message" 

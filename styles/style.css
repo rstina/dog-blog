@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #AA7444;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  padding: 20px;
+  margin: auto;
+  margin-top: 25px;
+  max-width: 1000px;
+}
+
+
+section {
+  min-width: 600px;
+}
+
+aside, article {
+  background-color: rgb(255, 243, 227);
+  padding: 50px 50px 30px 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+article + article {
+  margin-top: 30px;
+}
+
+aside {
+  padding: 30px 50px 30px 50px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+a {
+  color: #E9EDED;
+  text-decoration: none;
+}
+
+a:hover, .contact a:hover{
+  color: orange;
+}
+
+.navlink {
+  margin-left: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol {
+  padding: 15px;
+  margin: 0;
+}
+
+header nav ul li{
+  display: inline;
+}
+
+nav {
+  box-sizing: border-box;
+  background: rgb(49, 41, 39);
+  color: #E9EDED;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 50px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  min-width: 500px;
+}
+
+#howl {
+  min-width: 100px;
+  max-width: 50%;
+}
+
+.contact {
+  background-color: rgb(255, 243, 227);
+  padding: 50px 50px 30px 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.contact a {
+  color: #AA7444;
+}
+
+.contact h2 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #AA7444;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: rgb(218, 200, 185);}
+
+tr:nth-child(odd){background-color: rgb(238, 223, 209);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #AA7444;
+  color: white;
+}
+
+/* COLORS 
+white: E9EDED
+light brown: AA7444
+reddish brown: 824435
+brown: 40343A
+blue: 7A92A8
+
+F1F2EE
+779D94
+ECBB44
+736536
+262C2E
+
+F0E8E6
+885443
+878296
+604444
+292C39
+*/
