@@ -11,8 +11,9 @@ body {
 }
 
 main {
-  margin-top: 4rem;
+  margin-top: 1rem;
   width: 100vw;
+
 }
 
 /* typography */
@@ -150,6 +151,10 @@ button:hover {
 
 /* --------- for desktop users --------- */
 @media (min-width: 769px) {
+  main {
+    margin-top: 4.5rem;
+  }
+
   nav {
     position: fixed;
     top: 0;
