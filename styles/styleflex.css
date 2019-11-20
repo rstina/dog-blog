@@ -1,0 +1,185 @@
+:root {
+  --mid-color: #AA7444;
+  font-size: 15px;
+}
+
+body {
+  background: var(--mid-color);
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 1rem;
+  width: 100vw;
+
+}
+
+/* typography */
+h1, h2, h3, h4 {
+  font-weight: 900;
+}
+
+header {
+  position: relative;
+}
+
+h2 {
+  padding: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-top: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* navigation and header */
+nav {
+  box-sizing: border-box;
+  background: rgb(49, 41, 39);
+  color: #E9EDED;
+  top: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+header nav ul li{
+  display: inline;
+  margin-right: 1em;
+}
+
+/* sectioning */
+section {
+  width: 95%;
+  margin: auto;
+}
+
+aside, article {
+  background-color: rgb(255, 243, 227);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+article + article {
+  margin-top: 2em;
+}
+
+article a, aside a {
+  text-align: center;
+  color: saddlebrown;
+}
+
+footer {
+  font-size: 0.9rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  margin-right: 1rem;
+}
+
+/* images */
+img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+/* lists */
+ol, ul {
+  padding-left: 1rem;
+}
+
+/* tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+td, th {
+  border: 2px solid rgb(255, 243, 227);
+  padding: 0.6rem;
+}
+
+th {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  text-align: left;
+  background-color: var(--mid-color);
+  color: white;
+}
+
+tr:nth-child(even){background-color: rgb(218, 200, 185);}
+
+tr:nth-child(odd){background-color: rgb(238, 223, 209);}
+
+/* buttons */
+button {
+  background-color: var(--mid-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: saddlebrown;
+}
+
+/* --------- for desktop users --------- */
+@media (min-width: 769px) {
+  main {
+    margin-top: 4.5rem;
+  }
+
+  nav {
+    position: fixed;
+  }
+
+  button {
+    padding: 0.5rem 1.5rem;
+    width: auto;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  img {
+    width: 50%;
+    object-fit: cover;
+    height: auto;
+  }
+}
